@@ -1,0 +1,18 @@
+/* lab2.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: #f0f0f0;
+  padding: 1rem;
+}
+.main {
+  padding: 1rem;
+}
+.footer {
+  background: #ddd;
+  padding: 1rem;
+  text-align: center;
+}
