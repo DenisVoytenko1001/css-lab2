@@ -1,0 +1,48 @@
+/* reset */
+* { margin:0; padding:0; border:0; box-sizing:border-box; }
+
+html, body { height: 100%; }
+
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* header — синій (30vh) */
+.header {
+  height: 30vh;
+  background: #1e62ff;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  padding-left:20px;
+}
+
+/* main — зелений (40vh) */
+.main {
+  height: 40vh;
+  background: #10a44b;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* footer — жовтий (30vh) */
+.footer {
+  height: 30vh;
+  background: #ffc400;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  padding-right:20px;
+}
+
+/* текстовий клас (обов'язково) */
+.text {
+  font-size: 18px;       /* розмір обов'язково */
+  color: #fff;           /* колір обов'язково (за замовчуванням білий) */
+  background: rgba(0,0,0,0.35);
+  padding:8px 12px;
+  border-radius:6px;
+  font-weight:700;
+}
